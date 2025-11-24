@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  color: white;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
+.aot {
+  background-image: url("./Bandpage/header.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 2px 18px 4px rgb(169, 132, 72);
+}
+.header_logo {
+  height: 64px;
+  width: 64px;
+}
+.header_logo:hover {
+  filter: drop-shadow(0px 0px 8px rgba(195, 10, 10, 0.743));
+}
+
+.nav_links {
+  margin-left: 44px;
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav_links:hover {
+  color: rgb(169, 132, 72);
+  border: 0.5px solid rgb(169, 132, 72);
+  border-radius: 8px;
+  padding: 8px;
+  transition: 0.5s;
+}
+.header-logos {
+  width: 22px;
+  height: 22px;
+  margin: 0px;
+  margin-left: 22px;
+}
+.header-logos:hover {
+  filter: drop-shadow(0px 0px 4px white);
+  cursor: pointer;
+}
+h1 {
+  font-size: 56px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+p {
+  font-size: 18px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.button {
+  font-size: 12px;
+  margin-top: 22px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(169, 132, 72);
+  padding: 22px 32px;
+}
+.button:hover {
+  background-color: rgb(195, 140, 52);
+}
+/* new section starts */
+.link-section {
+  height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:22px;
+  
+}
+.link-section img {
+  height: 200x;
+  width: 200px;
+  margin-top: 4px;
+  object-fit: cover;
+}
+.link-section img:hover {
+  filter: drop-shadow(8px 8px 12px rgb(169, 132, 72));
+  transition: 0.5s;
+}
+.links {
+  color: rgb(169, 132, 72);
+  font-size: 22px;
+  text-decoration: none;
+  display: flex;
+}
+/* new section starts */
+.ticket-section {
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  align-items: center;
+  height: 300px
+  
+}
+strong {
+    font-size: 22px;
+}
+.ticket-section img {
+    
+    height: 300px;
+    width: 300x;
+}
+.text-div {
+  padding: 44px;
+  flex:1;
+}
+.line {
+  height: 200px;
+  width: 1px;
+  background-color: white;
+}
+.button-container {
+    width: 300px;
+    display: flex;
+    justify-content: center;;
+} 
+/* new section starts */
+.text-container {
+    height: 200px;
+    color:  rgb(195, 140, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+}
