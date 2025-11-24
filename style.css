@@ -146,3 +146,62 @@ strong {
 h2 {
     text-align: center;
 }
+.video-container {
+    background-image: url("./Bandpage/bottom.png");
+    height:700px;
+    background-size:cover;
+    background-position: center;
+    object-fit: cover;
+}
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 200px;
+
+}
+h3 {
+    font-size: 24px;
+}
+.footer-images {
+    height: 44px;
+    width: 44px
+}
+.image-input-button-section {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+
+}
+.input-button-div {
+  display: flex;
+  margin-top: 44px;
+}
+.input-button-div:hover {
+    box-shadow: 0px 0px 12px 4px rgb(169, 132, 72) ;
+}
+input {
+   padding: 12px 24px;
+   border-right: none;
+   border: none;
+}
+input::placeholder {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.488);
+
+}
+input:focus {
+    outline: none;  
+}
+button {
+    padding: 14px 44px;
+    border-left: none;
+    background-color:rgb(169, 132, 72) ;
+    color: white;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    background-color:  rgb(195, 140, 52);
+
+}
